@@ -19,17 +19,17 @@
 ************************************************************************************************************************* */
 @font-face {
     font-family: "principal-font";
-    src: url(/assets/fonts/Ubuntu-Regular.ttf);
+    src: url(assets/fonts/Ubuntu-Regular.ttf);
 }
 
 @font-face {
     font-family: "title-font";
-    src: url(/assets/fonts/Lobster-Regular.ttf);
+    src: url(assets/fonts/Lobster-Regular.ttf);
 }
 
 @font-face {
     font-family: "maj-font";
-    src: url(/assets/fonts/BebasNeue-Regular.ttf);
+    src: url(assets/fonts/BebasNeue-Regular.ttf);
 }
 
 /* 2 - SETTINGS 
