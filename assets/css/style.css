@@ -17,19 +17,21 @@
 
 /* 1 - FONTS 
 ************************************************************************************************************************* */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Ubuntu:wght@300&display=swap');
+
 @font-face {
     font-family: "principal-font";
-    src: url(assets/fonts/Ubuntu-Regular.ttf);
+    src: url(/assets/fonts/Ubuntu-Regular.ttf);
 }
 
 @font-face {
     font-family: "title-font";
-    src: url(assets/fonts/Lobster-Regular.ttf);
+    src: url(/assets/fonts/Lobster-Regular.ttf);
 }
 
 @font-face {
     font-family: "maj-font";
-    src: url(assets/fonts/BebasNeue-Regular.ttf);
+    src: url(/assets/fonts/BebasNeue-Regular.ttf);
 }
 
 /* 2 - SETTINGS 
@@ -98,7 +100,7 @@ header img {
 
 header h1 {
     text-align: center;
-    font-family: "title-font";
+    font-family: "title-font", 'Lobster', cursive;
     color: var(--title1-color);
     font-size: 2.5rem;
     padding: 10px;
@@ -107,7 +109,7 @@ header h1 {
 header h2 {
     text-align: center;
     padding: 10px;
-    font-family: "principal-font";
+    font-family: "principal-font", 'Ubuntu', sans-serif;
     color: var(--title-color);
     font-size: 2rem;
     padding-bottom: 20px;
@@ -128,7 +130,7 @@ ul li {
     padding: 8px 18px;
     display: inline-block;
     justify-content: center;
-    font-family: "principal-font";
+    font-family: "principal-font", 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -137,7 +139,7 @@ ul li {
 /* 5 - SECTION  
 ************************************************************************************************************************* */
 #home h2 {
-    font-family: "title-font";
+    font-family: "title-font", 'Lobster', cursive;
     font-size: 3rem;
     margin-left: 50px;
     color: var(--title1-color)
@@ -161,7 +163,7 @@ section img {
 }
 
 section h2 {
-    font-family: "title-font";
+    font-family: "title-font", 'Lobster', cursive;
     font-size: 1.8rem;
     text-align: left;
     color: var(--title2-color);
@@ -169,7 +171,7 @@ section h2 {
 }
 
 section p {
-    font-family: "principal-font";
+    font-family: "principal-font", 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     font-weight: 100;
     padding: 5px;
@@ -188,7 +190,7 @@ section p {
 }
 
 #contact h3 {
-    font-family: "title-font";
+    font-family: "title-font", 'Lobster', cursive;
     font-size: 2.5rem;
     color: var(--title2-color);
     text-align: center;
@@ -199,7 +201,7 @@ section p {
 footer p,
 footer a {
     text-align: center;
-    font-family: "maj-font", cursive;
+    font-family: "maj-font", 'Bebas Neue', cursive;
     letter-spacing: 2px;
     font-size: 1.7rem;
     font-weight: 400;
@@ -241,13 +243,13 @@ footer p a {
     font-weight: lighter;
     letter-spacing: 2px;
     border-top-width: 2px;
-    font-family: "principal-font";
+    font-family: "principal-font", 'Ubuntu', sans-serif;
 }
 
 /* 9 - NOS TRAVAUX 
 ************************************************************************************************************************* */
 #nostravaux {
-    font-family: "title-font";
+    font-family: "title-font", 'Lobster', cursive;
     font-size: 3rem;
     margin-left: 90px;
     color: var(--title1-color);
@@ -261,7 +263,7 @@ footer p a {
     perspective: 200px;
     transform: translateX(26px);
     text-align: center;
-    font-family: "principal-font";
+    font-family: "principal-font", 'Ubuntu', sans-serif;
     color: #A8A6A1;
     font-size: 2rem;
     margin-bottom: 69px;
@@ -291,7 +293,7 @@ footer p a {
 }
 
 .contenu p {
-    font-family: "principal-font";
+    font-family: "principal-font", 'Ubuntu', sans-serif;
     width: 300px;
     margin: auto;
 }
@@ -299,7 +301,7 @@ footer p a {
 .contenu h4 {
     padding: 20px;
     font-size: 1.6rem;
-    font-family: "title-font";
+    font-family: "title-font", 'Lobster', cursive;
 }
 
 .letter {
